@@ -10,6 +10,12 @@ Insights and recommendations will be provided on the following areas:
 - **Product Performance**: an analysis of the different products released during the summer drop with a focus on the average order value (AOV), quantity per order, and product combinations. This will be split between new customers and repeat customers. Repeat customers is defined as customers who purchased SWO products before and after the summer release.
 
 ## Data Structure & Cleaning Process
+This entity-relational-diagram shows tables that were derived from a Shopify orders export file that provides transactional information. It has an orders and product fact table and dimension tables consisting of: Order Details, Product Details, Customer Details, Unfulfilled Orders, Refunded Orders, and Date. Orders fact is the central fact table and product fact is a table used to be able to make certain product insights as the product names on shopify differ from the names SWO provides. 
+
+The SQL queries used to form the tables can be found here.
+
+The Shopify orders exports file used in this analysis can be found here.
+
 
 ## Executive Summary
 
