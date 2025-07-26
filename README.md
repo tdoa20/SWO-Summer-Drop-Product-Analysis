@@ -1,7 +1,7 @@
 # Street Workout Official Summer Drop Analysis
 
 ## Project Background
-Calisthenics is a type of strength training done with one's bodyweight. Street Workout Official (SWO) is an e-commerce company that caters to calisthenics practitioners and professional athletes worldwide by selling sports apparel through its website and sponsoring various competitions. It was established in 2023. 
+Calisthenics is a brand of strength training done with one's own bodyweight. Street Workout Official (SWO), as an e-commerce company, caters to calisthenics practitioners and professional athletes worldwide by selling sports apparel through its website and sponsoring various competitions. It was established in 2023. 
 
 The company's growth in the past year has allowed there to be enough transactional data to fully implement a data analytics initiative. International Strength Nights (ISN) is posed to be their biggest competition yet presenting an opportunity to leverage its potential success by introducing more people to the brand and making sales. This project aims to analyse the transactions done after their summer release to understand customer preferences and optimise sales.
 
