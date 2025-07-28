@@ -87,7 +87,7 @@ WHERE Lineitem_name LIKE 'Collier Lightning - Argent%';
 
 UPDATE OrdersFactTest
 SET ProductID = 6
-WHERE Lineitem_name LIKE 'Collier Lightning - Doré%';
+WHERE Lineitem_name LIKE 'Collier Lightning - DorÃ©%';
 
 UPDATE OrdersFactTest
 SET ProductID = 5
@@ -115,15 +115,15 @@ WHERE Lineitem_name = 'DARKNESS RASHGUARD - XS';
 -- Resistance bands
 UPDATE OrdersFactTest
 SET ProductID = 21
-WHERE Lineitem_name = 'ÉLASTIQUES SWO - LIGHT (5-10KG)';
+WHERE Lineitem_name = 'Ã‰LASTIQUES SWO - LIGHT (5-10KG)';
 
 UPDATE OrdersFactTest
 SET ProductID = 20
-WHERE Lineitem_name = 'ÉLASTIQUES SWO - MEDIUM (7,5-20KG)';
+WHERE Lineitem_name = 'Ã‰LASTIQUES SWO - MEDIUM (7,5-20KG)';
 
 UPDATE OrdersFactTest
 SET ProductID = 18
-WHERE Lineitem_name = 'ÉLASTIQUES SWO - PACK 3 ÉLASTIQUES' OR Lineitem_name LIKE '%ÉLASTIQUES PREMIUM%';
+WHERE Lineitem_name = 'Ã‰LASTIQUES SWO - PACK 3 Ã‰LASTIQUES' OR Lineitem_name LIKE '%Ã‰LASTIQUES PREMIUM%';
 
 
 -- Water bottle
@@ -175,11 +175,11 @@ WHERE Lineitem_name = 'PANTALON CARGO SWO - 44';
 -- Wrist wraps and elbow sleeves
 UPDATE OrdersFactTest
 SET ProductID = 59
-WHERE Lineitem_name = 'PROTÈGE POIGNETS - COUDES - Coudes: 9x13cm'
+WHERE Lineitem_name = 'PROTÃˆGE POIGNETS - COUDES - Coudes: 9x13cm'
 
 UPDATE OrdersFactTest
 SET ProductID = 60
-WHERE Lineitem_name = 'PROTÈGE POIGNETS - COUDES - Poignets : 7*10cm' OR Lineitem_name = '(NOUVEAU ) PROTÈGE POIGNETS BLANCS - Poignets : 7*10cm';
+WHERE Lineitem_name = 'PROTÃˆGE POIGNETS - COUDES - Poignets : 7*10cm' OR Lineitem_name = '(NOUVEAU ) PROTÃˆGE POIGNETS BLANCS - Poignets : 7*10cm';
 
 
 -- Backpack
