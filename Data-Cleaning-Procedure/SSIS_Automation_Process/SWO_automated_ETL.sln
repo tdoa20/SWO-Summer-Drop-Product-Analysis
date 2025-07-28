@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SWO_automated_ETL", "SWO_automated_ETL\SWO_automated_ETL.dtproj", "{4D431519-2985-AC52-F4EE-29EA63A960AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D431519-2985-AC52-F4EE-29EA63A960AB}.Development|Default.ActiveCfg = Development
+		{4D431519-2985-AC52-F4EE-29EA63A960AB}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19E6B03B-AD6C-459F-8DA9-F570BC5F7A90}
+	EndGlobalSection
+EndGlobal
