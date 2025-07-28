@@ -12,9 +12,9 @@ Insights and recommendations will be provided on the following areas:
 ## Data Structure & Cleaning Process
 This entity-relational-diagram shows tables that were derived from a Shopify orders export file that provides transactional information. It has an orders and product fact table and dimension tables consisting of: Order Details, Product Details, Customer Details, Unfulfilled Orders, Refunded Orders, and Date. Orders fact is the central fact table and product fact is a table used to be able to make certain product insights as the product names on shopify differ from the names SWO provides. 
 
-The SQL queries used to form the tables can be found here.
+The SQL queries used to form the tables can be found <a href = "Data-Cleaning-Procedure/SQL_Queries">here</a>.
 
-The Shopify orders exports file used in this analysis can be found here.
+The Shopify orders exports file used in this analysis can be found <a href = "Data-Cleaning-Procedure/orders_export_1.csv">here</a>. The customer's names and addresses have been anonymised for privacy purposes.
 
 
 ## Executive Summary
