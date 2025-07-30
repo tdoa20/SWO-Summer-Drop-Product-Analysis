@@ -3,11 +3,11 @@
 ## Project Background
 Calisthenics is a brand of strength training done with one's own bodyweight. Street Workout Official (SWO), as an e-commerce company, caters to calisthenics practitioners and professional athletes worldwide by selling sports apparel through its website and sponsoring various live competitions. At these competitions, people can get a chance to see the products SWO has in-person and make purchases.
 
-The company's growth in the past year has allowed there to be enough transactional data to fully implement a data analytics initiative to take steps towards profitability. International Strength Nights (ISN) is posed to be their biggest competition yet presenting an opportunity to leverage its potential success by introducing more people to the brand and making sales through a limited edition release. This project aims to analyse the transactions done after their summer release to understand customer preferences and optimise sales.
+The company's growth in the past year has allowed there to be enough transactional data to fully implement a data analytics initiative to take steps towards profitability. International Strength Nights (ISN) is posed to be their biggest competition yet presenting an opportunity to leverage its potential success by introducing more people to the brand, having important conversations with existing customers, and making sales through a limited edition release. This project aims to analyse the transactions done after their summer release to understand customer preferences and optimise sales.
 
 Insights and recommendations will be provided on the following areas:
 - **Monthly Sales**: an evaluation of patterns in monthly sales and order frequency from January to June in comparison to last year.
-- **Product Performance**: an analysis of the different products released during the summer drop with a focus on the average order value (AOV), quantity per order, and product combinations. The summer drop consisted of a new release of white and black training shorts and wrist wraps/elbow sleeves. This will be split between new customers and repeat customers. Repeat customers is defined as customers who purchased SWO products before and after the summer release. 
+- **Product Performance**: an analysis of the different products released during the summer drop with a focus on the average order value (AOV), quantity per order, and product combinations. The summer drop consisted of a new release of white and black training shorts and wrist wraps/elbow sleeves. This will be split between new customers and existing customers. Existing customers is defined as customers who purchased SWO products before and after the summer release. 
 
 ## Data Structure & Cleaning Process
 This entity-relational-diagram shows tables that were derived from a Shopify orders export file that provides transactional information. It has an orders and product fact table and dimension tables consisting of: Order Details, Product Details, Customer Details, Unfulfilled Orders, Refunded Orders, and Date. Orders fact is the central fact table and product fact is a table used to be able to make certain product insights as the product names on Shopify differ from the names SWO provides. 
@@ -26,7 +26,7 @@ The SQL queries used to form the tables can be found <a href = "Data-Cleaning-Pr
 ### Monthly Sales
 <img src = "Charts/Monthly_Net_Sales2024.png">
 <img src = "Charts/Monthly_Net_Sales2025.png">
-These bar charts highlight the increase in SWO'S net sales through a decrease in variability from 2024 to 2025. The sharp increase in the minimum value from 45 euros in 2024 to almost 700 euros in 2025 was a key factor in the almost 3x increase in average monthly net sales. The product release in the winter of 2024 worked to capture lots of new customers and introduce a collection of products that are still attracting customers past its release. This provides a reliable revenue stream as the outcome of new drops can vary.
+These bar charts highlight the increase in SWO'S net sales through a decrease in variability from 2024 to 2025. The sharp increase in the minimum value from 45 euros in 2024 to almost 700 euros in 2025 was a key factor in the almost 3 times increase in average monthly net sales. The product release in the winter of 2024 worked to capture lots of new customers and introduce a collection of products that are still attracting customers past its release. This provides a reliable revenue stream as the outcome of new drops can vary.
 <br>
 <br>
 By learning about the products that attract the most customers, SWO can increase the margin of error of the new drop at ISN and make a substantial amount of net sales.
@@ -51,7 +51,7 @@ Here are some notes on the different products. It is assumed that products that 
 
 In general, 45 out of 46 orders made by new customers contained one of the four items discussed.
 
-#### Repeat Customers
+#### Existing Customers
 There were only 13 orders purchased by this customer segment so the total orders was used to assess the popularity of certain items instead of the quantity.
 <br>
 <img src = "Charts/Num_Orders_Repeat_Customers.png">
@@ -68,4 +68,4 @@ For all the products, the AOV was dictated by the fact that it being bought with
 Generally, 11 out of 13 orders contained at least one of those 4 items.
 
 ## Recommendations
-In order to generate the most demand and increase sales, SWO would need to have shorts, SWOCKETS, and wrist wraps/elbow sleeves available with a great focus on SWOCKETS to attract new customers. With you anticipating that most people at ISN will be repeat customers, there would need to be a larger share of shorts available due to its immense revenue generating potential.
+In order to generate the most demand and increase sales, SWO would need to have shorts, SWOCKETS, and wrist wraps/elbow sleeves available with a great focus on both darkness SWOCKETS and lightning SWOCKETS to attract new customers. Many customers specifically look out for darkness SWOCKETS specifically and some of them buy lightning SWOCKETS with other goods. With the high likelihood that most people at ISN will be existing customers, there would need to be a larger share of shorts available due to its immense revenue generating potential.
