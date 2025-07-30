@@ -9,18 +9,20 @@ Insights and recommendations will be provided on the following areas:
 - **Monthly Sales**: an evaluation of patterns in monthly sales and order frequency from January to June in comparison to last year.
 - **Product Performance**: an analysis of the different products released during the summer drop with a focus on the average order value (AOV), quantity per order, and product combinations. The summer drop consisted of a new release of white and black training shorts and wrist wraps/elbow sleeves. This will be split between new customers and existing customers. Existing customers is defined as customers who purchased SWO products before and after the summer release. 
 
+## Executive Summary
+
+### Main Findings
+#### Monthly Sales
+Net sales are higher and less variable in 2025 compared to the same period the previous year with the value slowly increasing after February. The winter drop in November 2024 helped establish a consistent flow of clients, thereby providing a reliable revenue stream independent on the success or failure of releases.
+
+#### Product Performance
+The 4 most popular items were SWOCKETS (socks), wrist/elbow sleeves, and training shorts. Out of these items, new customers would spend the most on orders with training shorts. For the other items, they spent a fair amount relative to the price of the item due to them buying those items with other SWO products. The most prominent case of this was with the lightning (white) SWOCKETS. For existing customers, it was a similar case with the top 4 items that customers ordered being the same based on number of orders. The AOV was dictated by the fact that those items were bought collectively rather than separately with a large proportion of orders consisting of those 4 items.
+
 ## Data Structure & Cleaning Process
 This entity-relational-diagram shows tables that were derived from a Shopify orders export file that provides transactional information. It has an orders and product fact table and dimension tables consisting of: Order Details, Product Details, Customer Details, Unfulfilled Orders, Refunded Orders, and Date. Orders fact is the central fact table and product fact is a table used to be able to make certain product insights as the product names on Shopify differ from the names SWO provides. 
 <br><img src = "SWO ERD.png" width = 600 height = 600>
 
-The SQL queries used to form the tables can be found <a href = "Data-Cleaning-Procedure/SQL_Queries">here</a>. The Product_Details table was made in Power BI. The table can be found <a href = "Data-Cleaning-Procedure/Product_Details.csv">here.</a> The Shopify orders exports file used in this analysis can be found <a href = "Data-Cleaning-Procedure/orders_export_1.csv">here</a>. The customer's names and addresses have been anonymised for privacy purposes.
-
-
-## Executive Summary
-
-### Overview of Findings
-
-
+The SQL queries used to form the tables can be found <a href = "Data-Cleaning-Procedure/SQL_Queries">here</a>. The Product_Details table was made in Power BI. The table can be found <a href = "Data-Cleaning-Procedure/Product_Details.csv">here.</a> The Shopify orders exports file used in this analysis can be found <a href = "Data-Cleaning-Procedure/orders_export_1.csv">here</a>. The customer's names and addresses have been anonymised for privacy purposes. Finally the Power BI dashboard can be found here.
 
 ## Insights
 ### Monthly Sales
@@ -45,7 +47,7 @@ The most popular items by both quantity sold and revenue were the socks (SWOCKET
 Here are some notes on the different products. It is assumed that products that are primarily bought with other products are not demanded specifically compared to products that are more frequently bought by themselves.
 <br>
 
-- **Training Shorts**: orders with this product had the highest AOV of over 80 euros. The price of the item is the highest, positively skewing the AOV, but despite that, people are purchasing more than just that item with around 70 percent of orders consisting of other items. A few customers bought multiple shorts. Out of the 16 orders, 6 of those consisted of both black and white shorts.
+- **Training Shorts**: orders with this product had the highest AOV of over 80 euros. The price of the item is the highest at 45 euros, positively skewing the AOV, but despite that, people are purchasing more than just that item with around 70 percent of orders consisting of other items. A few customers bought multiple shorts. Out of the 16 orders, 6 of those consisted of both black and white shorts.
 - **SWOCKETS**: Orders with lightning and darkness SWOCKETS had an AOV of almost 65 euros and 55 euros respectively. Lightning SWOCKETS were easily the best complementary item as almost 90 percent of orders with that product contained other items. However, customers had the tendency to make more purchases of darkness SWOCKETS on their own as the proportion is the lowest at 60 percent. People had a higher tendency to buy multiple darkness SWOCKETS than lightning SWOCKETS with there being 5 orders with multiple darkness SWOCKETS and only 1 with lightning SWOCKETS.
 - **Wrist/Elbow sleeves**: orders with this product had an AOV of over 60 euros. The AOV being that high was due to people buying other items as 60 percent of orders with this item came with other products and the quantity per item was a little over 1. 
 
@@ -57,7 +59,7 @@ There were only 13 orders purchased by this customer segment so the total orders
 <img src = "Charts/Num_Orders_Repeat_Customers.png">
 <img src = "Charts/Total_Revenue_Repeat_Customers.png">
 <br>
-The 4 most popular items based on these metrics were the same as that of the recent customers. Training shorts dominated when it came to both the number of orders and revenue and it is notable that the top 2 products based on number of orders were for newer products. Out of the 8 customers who bought wrist/elbow sleeves or training shorts, 6 of those customers had previously bought SWOCKETS. 
+The 4 most popular items based on these metrics were the same as that of new customers. Training shorts dominated when it came to both the number of orders and revenue and it is notable that the top 2 products based on number of orders were for newer products. Out of the 8 customers who bought wrist/elbow sleeves or training shorts, 6 of those customers had previously bought SWOCKETS. 
 
 For all the products, the AOV was dictated by the fact that it being bought with different products. Here are some other details:
 
