@@ -7,7 +7,7 @@ The company's growth in the past year has allowed there to be enough transaction
 
 Insights and recommendations will be provided on the following areas:
 - **Monthly Sales**: an evaluation of patterns in monthly sales and order frequency from January to June in comparison to last year.
-- **Product Performance**: an analysis of the different products released during the summer drop with a focus on the average order value (AOV), quantity per order, and product combinations. This will be split between new customers and repeat customers. Repeat customers is defined as customers who purchased SWO products before and after the summer release.
+- **Product Performance**: an analysis of the different products released during the summer drop with a focus on the average order value (AOV), quantity per order, and product combinations. This will be split between new customers and repeat customers. Repeat customers is defined as customers who purchased SWO products before and after the summer release. 
 
 ## Data Structure & Cleaning Process
 This entity-relational-diagram shows tables that were derived from a Shopify orders export file that provides transactional information. It has an orders and product fact table and dimension tables consisting of: Order Details, Product Details, Customer Details, Unfulfilled Orders, Refunded Orders, and Date. Orders fact is the central fact table and product fact is a table used to be able to make certain product insights as the product names on Shopify differ from the names SWO provides. 
@@ -34,5 +34,17 @@ By learning about the products that attract the most customers, SWO can increase
 
 
 ### Product Performance
+The metrics were calculated based on the net sale values without outliers. The AOV was calculated using net sales instead of total revenue because it takes discounts and refunds into account. Through this method, the impact of the goods that SWO gives away can be analysed.
 
+#### New Customers
+The most popular items by both quantity sold and revenue were the socks (SWOCKETS), wrist/elbow sleeves and training shorts. Those 4 items made for around 90 percent of all items sold and revenue. Darkness (black) and lightning (white) SWOCKETS were released at SWO's inception and they are still what attracts new customers, but the new training shorts is also playing a role in bringing them in.
 
+Here are some notes on the different products:
+- **Training Shorts**: orders with this product had the highest AOV of over 80 euros. The price of the item is the highest, positively skewing the AOV, but despite that, people are purchasing more than just that item with around 70 percent of orders consisting of other items. A few customers bought multiple shorts. Out of the 16 orders, 6 of those consisted of both black and white shorts.
+- **SWOCKETS**: Orders with lightning and darkness SWOCKETS had an AOV of almost 65 euros and 55 euros respectively. Lightning SWOCKETS were easily the best complementary item as almost 90 percent of orders with that product contained other items. However, customers had the tendency to make more purchases of darkness SWOCKETS on their own as the proportion is the lowest at 60 percent. People had a higher tendency to buy multiple darkness SWOCKETS than lightning SWOCKETS with there being 5 orders with multiple darkness SWOCKETS and only 1 with lightning SWOCKETS.
+- **Wrist/Elbow sleeves**: orders with this product had an AOV of over 60 euros. The AOV being that high was due to people buying other items as 60 percent of orders with this item came with other products and the quantity per item was a little over 1. 
+
+In general, 45 out of 46 orders made by new customers contained one of the four items discussed.
+
+#### Repeat Customers
+The 4 most popular items based on this were the same as that of the recent customers. Training shorts dominated when it came to both the number of orders and revenue but it’s interesting that the top 2 products based on number of orders were for newer products.
