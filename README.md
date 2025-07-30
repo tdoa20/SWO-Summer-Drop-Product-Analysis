@@ -1,22 +1,25 @@
 # Street Workout Official Summer Drop Analysis
 
 ## Project Background
-Calisthenics is a brand of strength training done with one's own bodyweight. Street Workout Official (SWO), as an e-commerce company, caters to calisthenics practitioners and professional athletes worldwide by selling sports apparel through its website and sponsoring various live competitions. At these competitions, people can get a chance to see the products SWO has in-person and make purchases.
+Calisthenics is a brand of strength training done with one's own bodyweight. Street Workout Official (SWO), an e-commerce company, caters to calisthenics practitioners and professional athletes worldwide by selling sports apparel through its website. They also sponsor various live competitions— providing clients the opportunity to see the products SWO has in-person and make purchases.
 
-The company's growth in the past year has allowed there to be enough transactional data to fully implement a data analytics initiative to take steps towards profitability. International Strength Nights (ISN) is posed to be their biggest competition yet presenting an opportunity to leverage its potential success by introducing more people to the brand, having important conversations with existing customers, and making sales through a limited-edition release. This project aims to analyse the transactions done after their summer release to understand customer preferences and optimise sales.
+The company's growth in the past year has allowed there to be enough transactional data to fully implement a data analytics initiative. After a succesful summer drop consisting of new training shorts and wrist wraps/elbow sleeves, 
+
+International Strength Nights (ISN) is posed to be their biggest competition yet with the possibility of introducing more people to the brand, having important conversations with existing customers, and making sales through a limited-edition release. 
+This project aims to analyse the transactions done after their summer drop to understand customer preferences and optimise sales.  The summer drop consisted of a new release of white and black training shorts and wrist wraps/elbow sleeves.
 
 Insights and recommendations will be provided on the following areas:
 - **Monthly Sales**: an evaluation of patterns in monthly sales and order frequency from January to June in comparison to last year.
-- **Product Performance**: an analysis of the different products released during the summer drop with a focus on the average order value (AOV), quantity per order, and product combinations. The summer drop consisted of a new release of white and black training shorts and wrist wraps/elbow sleeves. This will be split between new customers and existing customers. Existing customers is defined as customers who purchased SWO products before and after the summer release. 
+- **Product Performance**: an analysis of the different products released during the summer drop with a focus on the average order value (AOV), quantity per order, and product combinations. This will be split between new customers and existing customers. Existing customers is defined as customers who purchased SWO products before and after the summer release. 
 
 ## Executive Summary
 
 ### Main Findings
 #### Monthly Sales
-Net sales are higher and less variable in 2025 compared to the same period the previous year with the value slowly increasing after February. The winter drop in November 2024 helped establish a consistent flow of clients, thereby providing a reliable revenue stream independent on the success or failure of releases.
+Net sales are higher and less variable in 2025 compared to the same period the previous year with the value slowly increasing after February. The winter drop in November 2024 helped establish a consistent flow of clients, providing a reliable revenue stream not dependent on the outcome of releases.
 
 #### Product Performance
-The 4 most popular items were SWOCKETS (socks), wrist/elbow sleeves, and training shorts. Out of these items, new customers would spend the most on orders with training shorts. For the other items, they spent a fair amount relative to the price of the item due to them buying those items with other SWO products. The most prominent case of this was with the lightning (white) SWOCKETS. For existing customers, it was a similar case with the top 4 items that customers ordered being the same based on number of orders. The AOV was dictated by the fact that those items were bought collectively rather than separately with a large proportion of orders consisting of those 4 items.
+The 4 most popular items were SWOCKETS (socks), wrist/elbow sleeves, and training shorts. Those were the highest-ranked items when it came to quantity sold and revenue. Out of these items, new customers would spend the most on orders with training shorts. For the other items, they spent a fair amount relative to the price of the item due to them buying those items with other SWO products. The most prominent case of this was with the lightning (white) SWOCKETS. For existing customers, it was a similar case with the top 4 items that customers ordered being the same based on number of orders. The AOV was dictated by the fact that those items were bought collectively rather than separately with a large proportion of orders consisting of those 4 items.
 
 #### Recommendations
 Based on these insights SWO should cater to new customers by having a large supply of SWOCKETS, wrist/elbow sleeves, and training shorts, with a great focus on the SWOCKETS. For repeat customers the focus should primarily be on supplying items from the newest, focusing on the training shorts due to it's revenue generating potential.
@@ -62,7 +65,7 @@ There were only 13 orders purchased by this customer segment so the total orders
 <img src = "Charts/Num_Orders_Repeat_Customers.png">
 <img src = "Charts/Total_Revenue_Repeat_Customers.png">
 <br>
-The 4 most popular items based on these metrics were the same as that of new customers. Training shorts dominated when it came to both the number of orders and revenue and it is notable that the top 2 products based on number of orders were for newer products. Out of the 8 customers who bought wrist/elbow sleeves or training shorts, 6 of those customers had previously bought SWOCKETS. 
+The 4 most popular items based on the number of orders were the same as that of new customers. Training shorts dominated when it came to both the number of orders and revenue and it is notable that the top 2 products based on number of orders were for newer products. Out of the 8 customers who bought wrist/elbow sleeves or training shorts, 6 of those customers had previously bought SWOCKETS. 
 
 For all the products, the AOV was dictated by the fact that it being bought with different products. Here are some other details:
 
