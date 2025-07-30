@@ -3,7 +3,7 @@
 ## Project Background
 Calisthenics is a brand of strength training done with one's own bodyweight. Street Workout Official (SWO), as an e-commerce company, caters to calisthenics practitioners and professional athletes worldwide by selling sports apparel through its website and sponsoring various live competitions. At these competitions, people can get a chance to see the products SWO has in-person and make purchases.
 
-The company's growth in the past year has allowed there to be enough transactional data to fully implement a data analytics initiative to take steps towards profitability. International Strength Nights (ISN) is posed to be their biggest competition yet presenting an opportunity to leverage its potential success by introducing more people to the brand, having important conversations with existing customers, and making sales through a limited edition release. This project aims to analyse the transactions done after their summer release to understand customer preferences and optimise sales.
+The company's growth in the past year has allowed there to be enough transactional data to fully implement a data analytics initiative to take steps towards profitability. International Strength Nights (ISN) is posed to be their biggest competition yet presenting an opportunity to leverage its potential success by introducing more people to the brand, having important conversations with existing customers, and making sales through a limited-edition release. This project aims to analyse the transactions done after their summer release to understand customer preferences and optimise sales.
 
 Insights and recommendations will be provided on the following areas:
 - **Monthly Sales**: an evaluation of patterns in monthly sales and order frequency from January to June in comparison to last year.
@@ -34,7 +34,7 @@ The SQL queries used to form the tables can be found <a href = "Data-Cleaning-Pr
 These bar charts highlight the increase in SWO'S net sales through a decrease in variability from 2024 to 2025. The sharp increase in the minimum value from 45 euros in 2024 to almost 700 euros in 2025 was a key factor in the almost 3 times increase in average monthly net sales. The product release in the winter of 2024 worked to capture lots of new customers and introduce a collection of products that are still attracting customers past its release. This provides a reliable revenue stream as the outcome of new drops can vary.
 <br>
 <br>
-By learning about the products that attract the most customers, SWO can increase the margin of error of the new drop at ISN and make a substantial amount of net sales.
+By learning about the products that attract the most customers, SWO can increase the margin of error of the new drop at ISN and make a substantial number of net sales.
 
 
 
@@ -57,7 +57,7 @@ Here are some notes on the different products. It is assumed that products that 
 In general, 45 out of 46 orders made by new customers contained one of the four items discussed.
 
 #### Existing Customers
-There were only 13 orders purchased by this customer segment so the total orders was used to assess the popularity of certain items instead of the quantity.
+There were only 13 orders purchased by this customer segment so the total orders metric was used to assess the popularity of certain items instead of the quantity.
 <br>
 <img src = "Charts/Num_Orders_Repeat_Customers.png">
 <img src = "Charts/Total_Revenue_Repeat_Customers.png">
