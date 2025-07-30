@@ -18,6 +18,9 @@ Net sales are higher and less variable in 2025 compared to the same period the p
 #### Product Performance
 The 4 most popular items were SWOCKETS (socks), wrist/elbow sleeves, and training shorts. Out of these items, new customers would spend the most on orders with training shorts. For the other items, they spent a fair amount relative to the price of the item due to them buying those items with other SWO products. The most prominent case of this was with the lightning (white) SWOCKETS. For existing customers, it was a similar case with the top 4 items that customers ordered being the same based on number of orders. The AOV was dictated by the fact that those items were bought collectively rather than separately with a large proportion of orders consisting of those 4 items.
 
+#### Recommendations
+Based on these insights SWO should cater to new customers by having a large supply of SWOCKETS, wrist/elbow sleeves, and training shorts, with a great focus on the SWOCKETS. For repeat customers the focus should primarily be on supplying items from the newest, focusing on the training shorts due to it's revenue generating potential.
+
 ## Data Structure & Cleaning Process
 This entity-relational-diagram shows tables that were derived from a Shopify orders export file that provides transactional information. It has an orders and product fact table and dimension tables consisting of: Order Details, Product Details, Customer Details, Unfulfilled Orders, Refunded Orders, and Date. Orders fact is the central fact table and product fact is a table used to be able to make certain product insights as the product names on Shopify differ from the names SWO provides. 
 <br><img src = "SWO ERD.png" width = 600 height = 600>
