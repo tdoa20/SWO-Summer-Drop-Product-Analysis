@@ -5,7 +5,7 @@ Calisthenics is a brand of strength training done with one's own bodyweight. Str
 
 The company's growth in the past year has allowed there to be enough transactional data to fully implement a data analytics initiative. International Strength Nights (ISN) is posed to be their biggest competition yet with the possibility of introducing more people to the brand, having important conversations with existing customers, and making sales through a limited-edition release. 
 
-Their summer drop consisted of a new release of white and black training shorts and wrist wraps/elbow sleeves. The transactions that occurred during this drop will be analysed to understand customer preferences and optimise sales. 
+Their summer drop in May 2025 consisted of a new release of white and black training shorts and wrist wraps/elbow sleeves. The transactions that occurred during this drop will be analysed to understand customer preferences and optimise sales. 
 
 Insights and recommendations will be provided on the following areas:
 - **Monthly Sales**: an evaluation of patterns in monthly sales and order frequency from January to June in comparison to last year.
