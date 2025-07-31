@@ -3,10 +3,9 @@
 ## Project Background
 Calisthenics is a brand of strength training done with one's own bodyweight. Street Workout Official (SWO), an e-commerce company, caters to calisthenics practitioners and professional athletes worldwide by selling sports apparel through its website. They also sponsor various live competitions— providing clients the opportunity to see the products SWO has in-person and make purchases.
 
-The company's growth in the past year has allowed there to be enough transactional data to fully implement a data analytics initiative. After a succesful summer drop consisting of new training shorts and wrist wraps/elbow sleeves, 
+The company's growth in the past year has allowed there to be enough transactional data to fully implement a data analytics initiative. International Strength Nights (ISN) is posed to be their biggest competition yet with the possibility of introducing more people to the brand, having important conversations with existing customers, and making sales through a limited-edition release. 
 
-International Strength Nights (ISN) is posed to be their biggest competition yet with the possibility of introducing more people to the brand, having important conversations with existing customers, and making sales through a limited-edition release. 
-This project aims to analyse the transactions done after their summer drop to understand customer preferences and optimise sales.  The summer drop consisted of a new release of white and black training shorts and wrist wraps/elbow sleeves.
+Their summer drop consisted of a new release of white and black training shorts and wrist wraps/elbow sleeves. The transactions that occurred during this drop will be analysed to understand customer preferences and optimise sales. 
 
 Insights and recommendations will be provided on the following areas:
 - **Monthly Sales**: an evaluation of patterns in monthly sales and order frequency from January to June in comparison to last year.
