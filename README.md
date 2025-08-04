@@ -46,8 +46,14 @@ By learning about the products that attract the most customers, SWO can increase
 The metrics were calculated based on the net sales without outliers. The AOV was calculated using net sales instead of total revenue as it takes discounts and refunds into account. As a result, the impact of the goods that SWO gives away can be accounted for.
 
 #### New Customers
-<img src = "Charts/Quantity_Sold_New_Customers.png">
-<img src = "Charts/Total_Revenue_New_Customers.png">
+<p>
+ <img src = "Charts/Quantity_Sold_New_Customers_Best_Products.png" style="width:45%; height:auto;">
+ <img src = "Charts/Quantity_Sold_New_Customers_Worst_Products.png" style="width:45%; height:auto;">
+</p>
+<p>
+ <img src = "Charts/Total_Revenue_New_Customers_Best_Products.png" style="width:45%; height:auto;">
+ <img src = "Charts/Total_Revenue_New_Customers_Worst_Products.png" style="width:45%; height:auto;">
+</p>
 The most popular items by when observing both the quantity sold and revenue were the socks, wrist/elbow sleeves and training shorts. Those 4 items made for around 90 percent of all items sold and revenue. Darkness and lightning SWOCKETS were released at SWO's inception and they are still what attracts new customers, but the new training shorts is also playing a role in bringing them in. 
 
 The worst performing products by revenue were the wristbands, necklaces and oversized T-Shirts. However, based on quantity, they were the rashguards, necklace, and oversized T-shirt. The inlcusion of rashguards is interesting as it was the best-selling item based on revenue during the winter drop. This highlights the impact of seasonal fluctuations in the demand. Considering the revenue generating potential, only wristbands, necklaces and oversized T-Shirts will be covered.
