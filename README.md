@@ -15,18 +15,18 @@ Insights and recommendations will be provided on the following areas:
 
 ### Main Findings
 #### Monthly Sales
-Net sales are higher and less variable in 2025 compared to the same period the previous year with the value slowly increasing after February. The winter drop in November 2024 helped establish a consistent flow of clients, providing a reliable revenue stream not dependent on the outcome of releases.
+Net sales are higher and less variable in 2025 compared to the same period last year. The winter drop in November 2024 helped establish a consistent flow of clients, providing a reliable revenue stream not dependent on the outcome of releases.
 
 #### Product Performance
-The 4 most popular items were SWOCKETS (socks), wrist/elbow sleeves, and training shorts for new customers. Those were the highest-ranked items when it came to quantity sold and revenue. Out of these items, new customers would spend the most on orders with training shorts. For the other items, they spent a fair amount relative to the price of the item due to them buying those items with other SWO products. The most prominent case of this was with the lightning (white) SWOCKETS with the least being with darkness (black) SWOCKETS. The least popular items were the oversized T-Shirt, lightning necklaces, and wristbands when observing revenue generated. These items had very few orders for them and they were mostly accompanied by the most popular items.
+The 4 most popular items were Swockets (socks), wrist/elbow sleeves, and training shorts when it came to quantity sold and revenue amongst new customers. Out of these items, new customers would spend the most on orders with training shorts— purchasing multiple shorts along with other products in each order. For orders consisting of the other items, they spent considerably more than the price of the item because they would buy them with other SWO products. The most prominent case of this was with lightning (white) swockets with 85 percent of orders with it having other SWO products. The least popular items according to revenue generated were the oversized T-Shirt, lightning necklaces, and wristbands. There were little orders for them and the products were mostly accompanied by the most popular ones.
 
-For existing customers, it was a similar case with the top 4 items that customers ordered being the same based on number of orders. The AOV was dictated by the fact that those items were bought collectively rather than separately with a large proportion of orders consisting of those 4 items. The worst performing products by revenue were carrying bags and lightning necklaces which were either bought individually or with the most top 4 products.
+For existing customers, it was a similar case with the most popular items being the same based on the number of orders. The AOV of each of them was primarily dictated by them being bought collectively rather than individually. The worst performing products by revenue were carrying bags and lightning necklaces which were either bought individually or with the best-selling products.
 
 #### Recommendations
-Based on these insights SWO should cater to new customers by having a large supply of SWOCKETS, wrist/elbow sleeves, and training shorts, with a great focus on the SWOCKETS and a lesser focus on lightning necklaces and wristbands. There is still potential for the oversized T-Shirt to generate some revenue so bundling it with some of the most popular items could be beneficial. For repeat customers, the focus should primarily be on supplying items from the newest drop, focusing on the training shorts due to its revenue generating potential and supplying less of carrying bags and lightning necklaces.
+Based on these insights, SWO should cater to new customers by having a large supply of Swockets, wrist/elbow sleeves, and training shorts — focusing more on Swockets and less on lightning necklaces and wristbands. There is still potential for oversized T-Shirts to generate some revenue so bundling it with some of the most popular items could be beneficial. For existing customers, the focus should primarily be on supplying items from the latest drop —a focusing on the training shorts due to its revenue generating potential and supplying less of carrying bags and lightning necklaces.
 
 ## Data Structure & Cleaning Process
-This entity-relational-diagram shows tables that were derived from a Shopify orders export file that provides transactional information. It has an orders and product fact table and dimension tables consisting of: Order Details, Product Details, Customer Details, Unfulfilled Orders, Refunded Orders, and Date. Orders fact is the central fact table and product fact is a table used to be able to make certain product insights as the product names on Shopify differ from the names SWO provides. 
+This entity relational diagram shows tables that were derived from a Shopify orders export file that provides transactional information. It has an orders and product fact table and dimension tables which include: Order Details, Product Details, Customer Details, Unfulfilled Orders, Refunded Orders, and Date. The Orders Fact table is the central fact table linked to all the dimension tables and the Product Fact table is used to make product insights as the product names on Shopify differ from that on the Product Details table.
 <br><img src = "SWO ERD.png" width = 600 height = 600>
 
 The SQL queries used to form the tables can be found <a href = "Data-Cleaning-Procedure/SQL_Queries">here</a>. The Product_Details table was made in Power BI. The table can be found <a href = "Data-Cleaning-Procedure/Product_Details.csv">here.</a> The Shopify orders exports file used in this analysis can be found <a href = "Data-Cleaning-Procedure/orders_export_1.csv">here</a>. The customer's names and addresses have been anonymised for privacy purposes. Finally the Power BI dashboard can be found <a href = "Data-Cleaning-Procedure/ISN preparation analysis_portfolio.pbix">here</a>.
@@ -35,15 +35,15 @@ The SQL queries used to form the tables can be found <a href = "Data-Cleaning-Pr
 ### Monthly Sales
 <img src = "Charts/Monthly_Net_Sales2024.png">
 <img src = "Charts/Monthly_Net_Sales2025.png">
-These bar charts highlight the increase in SWO'S net sales through a decrease in variability from 2024 to 2025. The sharp increase in the minimum value from 45 euros in 2024 to almost 700 euros in 2025 was a key factor in the almost 3 times increase in average monthly net sales. The product release in the winter of 2024 worked to capture lots of new customers and introduce a collection of products that are still attracting customers past its release. This provides a reliable revenue stream as the outcome of new drops can vary.
+These bar charts highlight the increase in SWO's net sales through a decrease in variability from 2024 to 2025. The sharp increase in the minimum value from 45 euros in 2024 to almost 700 euros in 2025 was a key factor in the almost 3 times increase in average monthly net sales. The product release in November 2024 helped capture lots of new customers and introduce a collection of products that are still attracting customers past its release. This provides a reliable revenue stream as the outcome of new drops can vary.
 <br>
 <br>
-By learning about the products that attract the most customers, SWO can increase the margin of error of the new drop at ISN and make a substantial number of net sales.
+By learning about the products that attract the most customers, SWO can increase the margin of error of the limited-edition drop at ISN and make a substantial number of net sales.
 
 
 
 ### Product Performance
-The metrics were calculated based on the net sale values without outliers. The AOV was calculated using net sales instead of total revenue because it takes discounts and refunds into account. Through this method, the impact of the goods that SWO gives away can be analysed.
+The metrics were calculated based on the net sales without outliers. The AOV was calculated using net sales instead of total revenue as it takes discounts and refunds into account. As a result, the impact of the goods that SWO gives away can be accounted for.
 
 #### New Customers
 <img src = "Charts/Quantity_Sold_New_Customers.png">
