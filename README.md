@@ -18,12 +18,12 @@ Insights and recommendations will be provided on the following areas:
 Net sales are higher and less variable in 2025 compared to the same period last year. The winter drop in November 2024 helped establish a consistent flow of clients, providing a reliable revenue stream not dependent on the outcome of releases.
 
 #### Product Performance
-The 4 most popular items were Swockets (socks), wrist/elbow sleeves, and training shorts when it came to quantity sold and revenue amongst new customers. Out of these items, new customers would spend the most on orders with training shorts— purchasing multiple shorts along with other products in each order. For orders consisting of the other items, they spent considerably more than the price of the item because they would buy them with other SWO products. The most prominent case of this was with lightning (white) swockets with 85 percent of orders with it having other SWO products. The least popular items according to revenue generated were the oversized T-Shirt, lightning necklaces, and wristbands. There were little orders for them and the products were mostly accompanied by the most popular ones.
+The 4 most popular items were swockets (socks), wrist/elbow sleeves, and training shorts when it came to quantity sold and revenue amongst new customers. Out of these items, new customers would spend the most on orders with training shorts— purchasing multiple shorts along with other products in each order. For orders consisting of the other items, they spent considerably more than the price of the item because they would buy them with other SWO products. The most prominent case of this was with lightning (white) swockets with 85 percent of orders with it having other SWO products. The least popular items according to revenue generated were oversized T-Shirts, lightning necklaces, and wristbands. There were little orders for them and the products were mostly accompanied by the most popular ones.
 
 For existing customers, it was a similar case with the most popular items being the same based on the number of orders. The AOV of each of them was primarily dictated by them being bought collectively rather than individually. The worst performing products by revenue were carrying bags and lightning necklaces which were either bought individually or with the best-selling products.
 
 #### Recommendations
-Based on these insights, SWO should cater to new customers by having a large supply of Swockets, wrist/elbow sleeves, and training shorts — focusing more on Swockets and less on lightning necklaces and wristbands. There is still potential for oversized T-Shirts to generate some revenue so bundling it with some of the most popular items could be beneficial. For existing customers, the focus should primarily be on supplying items from the latest drop —a focusing on the training shorts due to its revenue generating potential and supplying less of carrying bags and lightning necklaces.
+Based on these insights, SWO should cater to new customers by having a large supply of swockets, wrist/elbow sleeves, and training shorts — focusing more on swockets and less on lightning necklaces and wristbands. There is still potential for oversized T-Shirts to generate some revenue so bundling it with some of the most popular items could be beneficial. For existing customers, the focus should primarily be on supplying items from the latest drop — focusing on the training shorts due to its revenue generating potential and supplying less of carrying bags and lightning necklaces.
 
 ## Data Structure & Cleaning Process
 This entity relational diagram shows tables that were derived from a Shopify orders export file that provides transactional information. It has an orders and product fact table and dimension tables which include: Order Details, Product Details, Customer Details, Unfulfilled Orders, Refunded Orders, and Date. The Orders Fact table is the central fact table linked to all the dimension tables and the Product Fact table is used to make product insights as the product names on Shopify differ from that on the Product Details table.
@@ -43,7 +43,7 @@ By learning about the products that attract the most customers, SWO can increase
 
 
 ### Product Performance
-The metrics were calculated based on the net sales without outliers. The AOV was calculated using net sales instead of total revenue as it takes discounts and refunds into account. As a result, the impact of the goods that SWO gives away can be accounted for.
+The metrics were calculated based on the net sales without outliers. The AOV was calculated using net sales instead of total revenue, which considered the impact of discounts and refunds. As a result, the impact of the goods that SWO gives away were accounted for.
 
 #### New Customers
 <p>
@@ -54,45 +54,45 @@ The metrics were calculated based on the net sales without outliers. The AOV was
  <img src = "Charts/Total_Revenue_New_Customers_Best_Products.png" style="width:45%; height:auto;">
  <img src = "Charts/Total_Revenue_New_Customers_Worst_Products.png" style="width:45%; height:auto;">
 </p>
-The most popular items by when observing both the quantity sold and revenue were the socks, wrist/elbow sleeves and training shorts. Those 4 items made for around 90 percent of all items sold and revenue. Darkness and lightning SWOCKETS were released at SWO's inception and they are still what attracts new customers, but the new training shorts is also playing a role in bringing them in. 
+The most popular items by both the quantity sold and revenue were Swockets, wrist/elbow sleeves and training shorts. Those 4 items made for around 90 percent of total revenue and quantity. Darkness and lightning swockets, SWO's first products, are still attracting new customers, but the new training shorts are also playing a role in bringing them in.
 
-The worst performing products by revenue were the wristbands, necklaces and oversized T-Shirts. However, based on quantity, they were the rashguards, necklace, and oversized T-shirt. The inlcusion of rashguards is interesting as it was the best-selling item based on revenue during the winter drop. This highlights the impact of seasonal fluctuations in the demand. Considering the revenue generating potential, only wristbands, necklaces and oversized T-Shirts will be covered.
+The worst performing products by revenue were wristbands, necklaces and oversized T-Shirts. However, by quantity, they were rashguards, necklaces, and oversized T-shirts. The inclusion of the rashguard is interesting as it generated the most revenue during the winter drop. This underscores the impact of seasonal fluctuations in  demand. Considering the revenue generating potential of rashguards, only wristbands, necklaces and oversized T-Shirts will be covered.
 
 
-Here are some notes on the different products. It is assumed that products that are primarily bought with other products are not demanded specifically compared to products that are more frequently bought by themselves.
+Here are some notes on the different products. It is assumed that products that were primarily bought with other products were not demanded specifically compared to products that were more frequently bought by themselves.
 <br>
 
-- **Training Shorts**: orders with this product had the highest AOV of over 80 euros. The price of the item is the highest at 45 euros, positively skewing the AOV, but despite that, people are purchasing more than just that item with around 70 percent of orders consisting of other items. A few customers bought multiple shorts. Out of the 16 orders, 6 of those consisted of both black and white shorts.
-- **SWOCKETS**: Orders with lightning and darkness SWOCKETS had an AOV of almost 65 euros and 55 euros respectively. Lightning SWOCKETS were easily the best complementary item as almost 90 percent of orders with that product contained other items. However, customers had the tendency to make more purchases of darkness SWOCKETS on their own as the proportion is the lowest at 60 percent. People had a higher tendency to buy multiple darkness SWOCKETS than lightning SWOCKETS with there being 5 orders with multiple darkness SWOCKETS and only 1 with lightning SWOCKETS.
-- **Wrist/Elbow sleeves**: orders with this product had an AOV of over 60 euros. The AOV being that high was due to people buying other items as 60 percent of orders with this item came with other products and the quantity per item was a little higher than 1.
--	**Oversized T-Shirt**: there was only one order for it with the customer ordering multiple T-Shirts. The order was accompanied by SWOCKETS, new shorts, and wrist wraps— the 3 most popular items during the summer drop.
--	**Wristbands**: there were two orders for this item. One of the orders consisted of one wristband with lightning and darkness SWOCKETS, wrist wraps, and shorts. The other order contained 3 wrist bands and darkness SWOCKETS.
--	**Necklaces**: there was only one order made for the product alone, which generated under 25 euros, a low amount of net sales compared with the best selling items.
+- **Training Shorts**: orders with this product had the highest AOV of over 80 euros. The price of the item is the highest at 45 euros, positively skewing the AOV, but despite that, customers purchased more than just that item with around 70 percent of orders consisting of other items. A few of them bought multiple shorts as out of the 16 orders for the item, 6 of those consisted of both black and white shorts.
+- **Swockets**: Orders with lightning and darkness swockets had an AOV of almost 65 and 55 euros respectively. Lightning swockets were easily the best complementary item as almost 90 percent of orders with it contained other items. However, customers had the tendency to make more purchases of darkness swockets on their own with the proportion being the lowest of the most popular items at 60 percent. As a result, the AOV for darkness swockets was primarily dictated by customers buying it in multiples with there being 5 orders consisting of multiple darkness swockets and only 1 for lightning ones.
+- **Wrist/Elbow sleeves**: orders with this product had an AOV of over 60 euros. The AOV was that high because people bought other items with it as 60 percent of orders for it came with other products and the quantity per order was a little higher than 1.
+-	**Oversized T-Shirt**: there was only one order for it which consisted of multiple T-Shirts. The shirts were accompanied by swockets, new shorts, and wrist wraps— the 3 most popular items.
+-	**Wristbands**: there were two orders for this item. One of them consisted of one wristband with lightning and darkness swockets, wrist/elbow sleeves, and shorts. The other one contained 3 wrist bands and darkness swockets.
+-	**Necklaces**: there was only one order made for just that product, which generated under 25 euros— the lowest AOV out of all items ordered.
 
 
-In general, 45 out of 46 orders made by new customers contained one of the four most popular items discussed. Most of the orders with the least most popular items were primarily accompanied by the best-selling items. With the lack of demand for thse products there is not much need for them. 
+In general, 45 out of 46 orders made by new customers contained one of the four most popular items discussed. Most of the orders with the least most popular items were accompanied by the best-selling items. Considering the lack of demand for these products, there is not much need for them.
 
  
 
 #### Existing Customers
-There were only 13 orders purchased by this customer segment so the total orders metric was used to assess the popularity of certain items instead of the quantity.
+There were only 13 orders purchased by this customer segment, so the total orders metric was used to assess the popularity of certain items instead of the quantity sold.
 <br>
 <img src = "Charts/Num_Orders_Repeat_Customers.png">
 <img src = "Charts/Total_Revenue_Repeat_Customers.png">
 <br>
-The 4 most popular items based on the number of orders were the same as that of new customers. Training shorts dominated when it came to both the number of orders and revenue and it is notable that the top 2 products based on number of orders were for newer products. Out of the 8 customers who bought wrist/elbow sleeves or training shorts, 6 of those customers had previously bought SWOCKETS. When it comes to number of orders, all the orders that were less than lightning SWOCKETS had only one order for the respective products. Observing the revenue, after training shorts, the items were in a similar range except lightning necklace and SWO carrying bag which were notably less.
+The 4 most popular items based on the number of orders matched that of new customers. Training shorts dominated when it came to both the number of orders and revenue and it is evident, but not surprising, that the top 2 products were the newest ones. Out of the 8 customers who bought wrist/elbow sleeves or training shorts, 6 of those customers had previously bought Swockets. Observing the revenue, after training shorts, the items were in a similar range except lightning necklace and SWO carrying bag which were noticeably less.
 
 
-For all the products, the AOV was dictated by the fact that it being bought with different products. Here are some other details:
+For all the products, the AOV was mostly affected by the fact that they were bought with other products rather than the quantity ordered. Here are some other details:
 
 - **Training Shorts**: 4 out of 7 orders came with other items.
-- **Wrist/Elbow sleeves**: 3 out of 4 orders came with other items and all the orders with other items consisted of the other 3 items (training shorts, darkness and lightning SWOCKETS.
-- **SWOCKETS**: Resembling the pattern with new customers, lightning SWOCKETS was evidently a good complementary item with all orders for it coming with other items. With the quantity per order for darkness SWOCKETS being 1, the AOV is still higher than the price of 20 euros because the net sales of the only order with another item was 67.50 euros.
-- **Lightning Necklaces**: there was only one order for this product, which included SWOCKETS (lightning and darkness), oversized T-shirts, and training shorts (white and black).
-- **Carrying Bags**: there was one order for that item specifically, which consisted of only that bag. This customer had made multiple orders previously consisting of SWOCKETS.
+- **Wrist/Elbow sleeves**: 3 out of 4 orders came with other items and those orders consisted of the other 3 items (training shorts, darkness and lightning swockets).
+- **Swockets**: Resembling the pattern with new customers, lightning swockets was evidently a good complementary item with all orders for it coming with other items. With the quantity per order for darkness swockets being 1, the AOV is still higher than the price of 20 euros due to the order that came with another item.
+- **Lightning Necklaces**: there was only one order for this product, which included swockets (lightning and darkness), oversized T-shirts, and training shorts (white and black).
+- **Carrying Bags**: there was one order for only item. This customer had made multiple orders previously consisting of swockets.
 
 
-Generally, 11 out of 13 orders contained at least one of those 4 items. The worst performing products by revenue was carrying bag and lightning necklace which either came alone or with the best-selling products.
+Generally, 11 out of 13 orders contained at least one of training shorts, wrist/elbow sleeves and swockets. The least performing products by revenue were the carrying bag and lightning necklace which either came alone or with the best-selling products.
 
 
 
