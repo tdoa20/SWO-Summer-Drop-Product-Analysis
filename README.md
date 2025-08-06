@@ -26,19 +26,26 @@ For existing customers, it was a similar case with the most popular items being 
 Based on these insights, SWO should cater to new customers by having a large supply of swockets, wrist/elbow sleeves, and training shorts — focusing more on swockets and less on lightning necklaces and wristbands. There is still potential for oversized T-Shirts to generate some revenue so bundling it with some of the most popular items could be beneficial. For existing customers, the focus should primarily be on supplying items from the latest drop — focusing on the training shorts due to its revenue generating potential and supplying less of carrying bags and lightning necklaces.
 
 ## Data Structure & Cleaning Process
-This entity relational diagram shows tables that were derived from a Shopify orders export file that provides transactional information. It has an orders and product fact table and dimension tables which include: Order Details, Product Details, Customer Details, Unfulfilled Orders, Refunded Orders, and Date. The Orders Fact table is the central fact table linked to all the dimension tables and the Product Fact table is used to make product insights as the product names on Shopify differ from that on the Product Details table.
-<br><img src = "SWO ERD.png" width = 600 height = 600>
+<p>
+ This entity relational diagram shows tables that were derived from a Shopify orders export file that provides transactional information. It has an orders and product fact table and dimension tables which include: Order Details, Product Details, Customer Details, Unfulfilled Orders, Refunded Orders, and Date. The Orders Fact table is the central fact table linked to all the dimension tables and the Product Fact table is used to make product insights as the product names on Shopify differ from that on the Product Details table.
+</p>
+<img src = "SWO ERD.png" width = 600 height = 600>
 
-The SQL queries used to form the tables can be found <a href = "Data-Cleaning-Procedure/SQL_Queries">here</a>. The Product_Details table was made in Power BI. The table can be found <a href = "Data-Cleaning-Procedure/Product_Details.csv">here.</a> The Shopify orders exports file used in this analysis can be found <a href = "Data-Cleaning-Procedure/orders_export_1.csv">here</a>. The customer's names and addresses have been anonymised for privacy purposes. Finally the Power BI dashboard can be found <a href = "Data-Cleaning-Procedure/ISN preparation analysis_portfolio.pbix">here</a>.
+<p>
+ The SQL queries used to form the tables can be found <a href = "Data-Cleaning-Procedure/SQL_Queries">here</a>. The Product_Details table was made in Power BI. The table can be found <a href = "Data-Cleaning-Procedure/Product_Details.csv">here.</a> The Shopify orders exports file used in this analysis can be found <a href = "Data-Cleaning-Procedure/orders_export_1.csv">here</a>. The customer's names and addresses have been anonymised for privacy purposes. Finally the Power BI dashboard can be found <a href = "Data-Cleaning-Procedure/ISN preparation analysis_portfolio.pbix">here</a>.
+</p>
 
 ## Insights
 ### Monthly Sales
 <img src = "Charts/Monthly_Net_Sales2024.png">
 <img src = "Charts/Monthly_Net_Sales2025.png">
-These bar charts highlight the increase in SWO's net sales through a decrease in variability from 2024 to 2025. The sharp increase in the minimum value from 45 euros in 2024 to almost 700 euros in 2025 was a key factor in the almost 3 times increase in average monthly net sales. The product release in November 2024 helped capture lots of new customers and introduce a collection of products that are still attracting customers past its release. This provides a reliable revenue stream as the outcome of new drops can vary.
-<br>
-<br>
-By learning about the products that attract the most customers, SWO can increase the margin of error of the limited-edition drop at ISN and make a substantial number of net sales.
+<p>
+ These bar charts highlight the increase in SWO's net sales through a decrease in variability from 2024 to 2025. The sharp increase in the minimum value from 45 euros in 2024 to almost 700 euros in 2025 was a key factor in the almost 3 times increase in average monthly net sales. The product release in November 2024 helped capture lots of new customers and introduce a collection of products that are still attracting customers past its release. This provides a reliable revenue stream as the outcome of new drops can vary.
+</p>
+
+<p>
+ By learning about the products that attract the most customers, SWO can increase the margin of error of the limited-edition drop at ISN and make a substantial number of net sales.
+</p>
 
 
 
@@ -54,40 +61,46 @@ The metrics were calculated based on the net sales without outliers. The AOV was
  <img src = "Charts/Total_Revenue_New_Customers_Best_Products.png" style="width:45%; height:auto;">
  <img src = "Charts/Total_Revenue_New_Customers_Worst_Products.png" style="width:45%; height:auto;">
 </p>
-The most popular items by both the quantity sold and revenue were Swockets, wrist/elbow sleeves and training shorts. Those 4 items made for around 90 percent of total revenue and quantity. Darkness and lightning swockets, SWO's first products, are still attracting new customers, but the new training shorts are also playing a role in bringing them in.
 
-The worst performing products by revenue were wristbands, necklaces and oversized T-Shirts. However, by quantity, they were rashguards, necklaces, and oversized T-shirts. The inclusion of the rashguard is interesting as it generated the most revenue during the winter drop. This underscores the impact of seasonal fluctuations in  demand. Considering the revenue generating potential of rashguards, only wristbands, necklaces and oversized T-Shirts will be covered.
+<p>The most popular items by both the quantity sold and revenue were Swockets, wrist/elbow sleeves and training shorts. Those 4 items made for around 90 percent of total revenue and quantity. Darkness and lightning swockets, SWO's first products, are still attracting new customers, but the new training shorts are also playing a role in bringing them in.</p>
 
+<p>
+ The worst performing products by revenue were wristbands, necklaces and oversized T-Shirts. However, by quantity, they were rashguards, necklaces, and oversized T-shirts. The inclusion of the rashguard is interesting as it generated the most revenue during the winter drop. This underscores the impact of seasonal fluctuations in  demand. Considering the revenue generating potential of rashguards, only wristbands, necklaces and oversized T-Shirts will be covered.
+</p>
 
-Here are some notes on the different products. It is assumed that products that were primarily bought with other products were not demanded specifically compared to products that were more frequently bought by themselves.
-<br>
+<p>
+ Here are some notes on the different products. It is assumed that products that were primarily bought with other products were not demanded specifically compared to products that were more frequently bought by themselves.
+</p>
 
 - **Training Shorts**: orders with this product had the highest AOV of over 80 euros. The price of the item is the highest at 45 euros, positively skewing the AOV, but despite that, customers purchased more than just that item with around 70 percent of orders consisting of other items. A few of them bought multiple shorts as out of the 16 orders for the item, 6 of those consisted of both black and white shorts.
-- **Swockets**: Orders with lightning and darkness swockets had an AOV of almost 65 and 55 euros respectively. Lightning swockets were easily the best complementary item as almost 90 percent of orders with it contained other items. However, customers had the tendency to make more purchases of darkness swockets on their own with the proportion being the lowest of the most popular items at 60 percent. As a result, the AOV for darkness swockets was primarily dictated by customers buying it in multiples with there being 5 orders consisting of multiple darkness swockets and only 1 for lightning ones.
+- **Swockets**: orders with lightning and darkness swockets had an AOV of almost 65 and 55 euros respectively. Lightning swockets were easily the best complementary item as almost 90 percent of orders with it contained other items. However, customers had the tendency to make more purchases of darkness swockets on their own with the proportion being the lowest of the most popular items at 60 percent. As a result, the AOV for darkness swockets was primarily dictated by customers buying it in multiples with there being 5 orders consisting of multiple darkness swockets and only 1 for lightning ones.
 - **Wrist/Elbow sleeves**: orders with this product had an AOV of over 60 euros. The AOV was that high because people bought other items with it as 60 percent of orders for it came with other products and the quantity per order was a little higher than 1.
 -	**Oversized T-Shirt**: there was only one order for it which consisted of multiple T-Shirts. The shirts were accompanied by swockets, new shorts, and wrist wraps— the 3 most popular items.
 -	**Wristbands**: there were two orders for this item. One of them consisted of one wristband with lightning and darkness swockets, wrist/elbow sleeves, and shorts. The other one contained 3 wrist bands and darkness swockets.
 -	**Necklaces**: there was only one order made for just that product, which generated under 25 euros— the lowest AOV out of all items ordered.
 
-
-In general, 45 out of 46 orders made by new customers contained one of the four most popular items discussed. Most of the orders with the least most popular items were accompanied by the best-selling items. Considering the lack of demand for these products, there is not much need for them.
+<p>
+ In general, 45 out of 46 orders made by new customers contained one of the four most popular items discussed. Most of the orders with the least most popular items were accompanied by the best-selling items. Considering the lack of demand for these products, there is not much need for them.
+</p>
 
  
 
 #### Existing Customers
-There were only 13 orders purchased by this customer segment, so the total orders metric was used to assess the popularity of certain items instead of the quantity sold.
-<br>
+<p>There were only 13 orders purchased by this customer segment, so the total orders metric was used to assess the popularity of certain items instead of the quantity sold.</p>
+
 <img src = "Charts/Num_Orders_Repeat_Customers.png">
 <img src = "Charts/Total_Revenue_Repeat_Customers.png">
-<br>
-The 4 most popular items based on the number of orders matched that of new customers. Training shorts dominated when it came to both the number of orders and revenue and it is evident, but not surprising, that the top 2 products were the newest ones. Out of the 8 customers who bought wrist/elbow sleeves or training shorts, 6 of those customers had previously bought Swockets. Observing the revenue, after training shorts, the items were in a similar range except lightning necklace and SWO carrying bag which were noticeably less.
+
+<p>
+ The 4 most popular items based on the number of orders matched that of new customers. Training shorts dominated when it came to both the number of orders and revenue and it is evident, but not surprising, that the top 2 products were the newest ones. Out of the 8 customers who bought wrist/elbow sleeves or training shorts, 6 of those customers had previously bought Swockets. Observing the revenue, after training shorts, the items were in a similar range except lightning necklace and SWO carrying bag which were noticeably less.
+</p>
 
 
 For all the products, the AOV was mostly affected by the fact that they were bought with other products rather than the quantity ordered. Here are some other details:
 
 - **Training Shorts**: 4 out of 7 orders came with other items.
 - **Wrist/Elbow sleeves**: 3 out of 4 orders came with other items and those orders consisted of the other 3 items (training shorts, darkness and lightning swockets).
-- **Swockets**: Resembling the pattern with new customers, lightning swockets was evidently a good complementary item with all orders for it coming with other items. With the quantity per order for darkness swockets being 1, the AOV is still higher than the price of 20 euros due to the order that came with another item.
+- **Swockets**: resembling the pattern with new customers, lightning swockets was evidently a good complementary item with all orders for it coming with other items. With the quantity per order for darkness swockets being 1, the AOV is still higher than the price of 20 euros due to the order that came with another item.
 - **Lightning Necklaces**: there was only one order for this product, which included swockets (lightning and darkness), oversized T-shirts, and training shorts (white and black).
 - **Carrying Bags**: there was one order for only item. This customer had made multiple orders previously consisting of swockets.
 
@@ -98,7 +111,7 @@ Generally, 11 out of 13 orders contained at least one of training shorts, wrist/
 
 
 #### Potential Revenue Lift Estimation
-Here is a scenario to estimate of the potential revenue lift that could occur at ISN if there was a higher stock of the items that were analysed. There are 100 SWO customers at ISN, but after 60 orders, the product sells out. It estimates the potential revenue uplift if there was still enough supply to satisfy the potential demand for the 40 customers. Out of those 40 customers, 30 are new customers and 10 of them are existing customers. The 'Proportion of Orders with Item' is the number of orders for that item divided by the total orders made by each customer group. The 'Potential Orders Missed' metric is based on the number of customers in each segment if they had made purchases based on the proportion of orders, and is purposely round down to be more conservative with the future estimates. The 'Potential Revenue Lift' is based on the AOV of orders with that product.
+Here is a scenario to demonstrate the potential revenue lift that could occur at ISN if there was a higher stock of the items that were analysed. There are 100 customers, but after orders by 60 of them, the supply of all items gets depleted. This estimates the potential revenue uplift if there was still enough supply to satisfy the potential demand for the 40 customers. Out of them, 30 are new customers and 10 are existing ones. The 'Proportion of Orders with Item' is the number of orders for that item during the summer drop divided by the total orders made by each customer group. The 'Potential Orders Missed' is based on the number of customers in each segment assuming they made purchases matching the proportion of orders. It is purposely rounded down to be more conservative with the future estimates. The AOV excluding product considers both the product price and the product's quantity per order. The 'Potential Revenue Lift' is based on the AOV derived from orders with that product. This scenario assumes that each customer is limited to one order.
 
 These are the metrics for new customers based on the scenario. They are based on the 46 online orders placed by them during the summer drop.
 | Metric                               | Training shorts  | Wrist/elbow sleeves | Darkness SWOCKETS | Lightning SWOCKETS | Oversized T-Shirts | Wristbands | Necklaces |
@@ -108,6 +121,7 @@ These are the metrics for new customers based on the scenario. They are based on
 | Average Quantity Per Order           | 1.31             | 1.16                | 2.6               | **2.67**          | 2                 | 2          | 1         |
 | Average Order Value                  | €93.76           | €76.98              | €69.24            | €81.24            | **€187.16**       | €75.38     | €22.39    |
 | Only individual purchases?           | No               | No                  | No                | No                | No                | No         | Yes       |
+| Price of Product                     | **€44.74**       | €22.40              | €22.34            | €22.34            | €39.14            | €4.42      | €19.60     |
 | Average Order Value excluding product| €35.15 (-62.51%) | €51.00 (-33.74%)    | **€11.16 (-83.88%)**  | €21.59 (-73.42%)  | €108.88 (-41.83%) | €66.54 (-11.73%)   | N/A       |
 | Potential Revenue Lift               | **€937.60**     | €923.76             | €900.12            | €731.16           | €0.00             | €75.38     | €0.00     |
 | Potential Revenue Generated with Product | €586.09     | €311.81             | **€754.54**        | €536.83           | €0.00             | €8.84      | €0.00     |
